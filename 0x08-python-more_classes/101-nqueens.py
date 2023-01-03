@@ -38,7 +38,7 @@ def board_deepcopy(board):
 def get_solution(board):
     """Return the list of lists representation of a solved chessboard."""
     solution = []
-    for r in range(len(board)):
+
         for c in range(len(board)):
             if board[r][c] == "Q":
                 solution.append([r, c])
