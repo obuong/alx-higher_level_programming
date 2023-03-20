@@ -17,5 +17,5 @@ class State(Base):
         Sequence('my_sequence'),
         primary_key=True,
         nullable=False
-        )
+    )
     name = Column(String(128), nullable=False)
