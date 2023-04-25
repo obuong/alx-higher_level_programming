@@ -13,7 +13,7 @@ request(url, function (error, response, body) {
   }
 });
 
-function printCharacters(characters, index) {
+function printCharacters (characters, index) {
   if (index === characters.length) {
     return;
   }
@@ -26,4 +26,3 @@ function printCharacters(characters, index) {
     }
   });
 }
-
