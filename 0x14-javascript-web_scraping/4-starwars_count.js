@@ -31,4 +31,3 @@ request(apiUrl, function (error, response, body) {
   // Print the final count
   console.log(count);
 });
-
