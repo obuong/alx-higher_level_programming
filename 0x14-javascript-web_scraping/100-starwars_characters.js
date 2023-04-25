@@ -1,4 +1,4 @@
-#!/usr/bin/node 
+#!/usr/bin/node
 // a script that prints all characters of a Star Wars movie
 const request = require('request');
 const movieId = process.argv[2];
@@ -25,4 +25,3 @@ request(url, function (error, response, body) {
     }
   }
 });
-
